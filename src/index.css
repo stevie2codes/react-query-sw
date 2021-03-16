@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #222;
+  color: #ddd;
+  text-align: center;
+}
+
+.App {
+  width: 960px;
+  margin: 0 auto;
+}
+h1 {
+  color: tomato;
+  font-size: 4em;
+  letter-spacing: 2px;
+}
+
+button {
+  margin: 0 10px;
+  background: transparent;
+
+  border: 3px solid #ccc;
+  color: tomato;
+  padding: 10px 22px;
+  border-radius: 20px;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+button:hover {
+  color: #fff;
+  border-color: #fff;
+}
+.content {
+  text-align: left;
+}
+
+.card {
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25);
+  margin: 10px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card p {
+  color: #999;
+}
+.card h3 {
+  color: rgb(71, 154, 255);
+}
